@@ -1,0 +1,4 @@
+/* Navbar background turns solid when scrolled */
+.header.scrolled {
+  background-color: #fff; /* Solid background when scrolled */
+}

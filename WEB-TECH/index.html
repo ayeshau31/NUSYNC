@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/js.css" />
+
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JAVASCRIPT -->
+    <script defer src="js/script.js"></script>
+
+    <title>NUSYNC</title>
+  </head>
+  <body>
+    <!-- <div class="wrapper"> -->
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="NUSYNC logo" src="img/Logos/NUsync.png" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="second.html">Events</a></li>
+          <li><a class="main-nav-link" href="#">FeedBack</a></li>
+          <li><a class="main-nav-link" href="help.html">Help</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Welcome to the NUTECH Co-Curricular Information Web App
+            </h1>
+            <p class="hero-description">
+              <b>Unlock campus life at its best!</b> Stay connected with NUTECH’s all-in-one platform for co-curricular activities. From clubs and sports to workshops and cultural events, explore opportunities that enrich your academic journey. Track your participation, access feedback, and stay updated on campus happenings—all in one place!
+
+            </p>
+            <a href="#" class="btn btn-full margin-right-sm">
+              Record your
+            </a>
+            <a href="#" class="btn btn-outline">Learn More &darr;</a>
+          </div>
+        </div>
+      </section>
+      <!-- </div> -->
+      <!-- HELP SECTION -->
+      <div class="how-sec container grid grid--2-cols">
+        <div class="How">
+          <div class="text">
+            <div>
+              <p class="heading-primary-2">Any Questions</p>
+              <p class="heading-primary-2">We got you.</p>
+            </div>
+            <p class="answer">Ask away!!</p>
+            <form class="help-form" action="#">
+              <!-- <label class="answer" for="question">Ask away!!</label> -->
+              <input
+                type="text"
+                id="question"
+                name="question"
+                placeholder="Enter your question here..."
+                required
+              />
+              <button class="btn btn-form" type="submit">Submit</button>
+            </form>
+
+            <a class="link" href="#">
+              More FAQs
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="questions">
+          <div class="questionaire">
+            <button class="question">
+              <p class="sub">How this works?</p>
+              <ion-icon
+                class="icon help-icon-pos"
+                name="remove-outline"
+              ></ion-icon>
+            </button>
+            <p class="answer">
+              Yet bed any for assistance indulgence unpleasing
+            </p>
+          </div>
+          <div class="questionaire">
+            <button class="question">
+              <p class="sub">Additional Fee</p>
+              <ion-icon
+                class="icon help-icon-pos"
+                name="add-outline"
+              ></ion-icon>
+            </button>
+          </div>
+          <div class="questionaire">
+            <button class="question">
+              <p class="sub">How can I get app?</p>
+              <ion-icon
+                class="icon help-icon-pos"
+                name="add-outline"
+              ></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- CALL-TO-ACTION SECTION  -->
+      <!-- <div class="foot-wrapper"> -->
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Register Yourself</h2>
+              <p class="cta-text">
+                With this you can record your all Co-curricular progress in one
+                place.
+              </p>
+              <form class="cta-form" action="#">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+
+                  <select id="select-where" required>
+                    <option value="">Please choose one option</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn-form">Sign up now</button>
+              </form>
+            </div>
+            <div class="cta-news-box">
+              <p class="heading-secondary">NEWS</p>
+              <ul class="cta-text">
+                <li class="cta-li">Latest</li>
+                <li class="cta-li">Updates</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="logo-footer">
+            <img class="logo" alt="NUSYNC logo" src="img/Logos/NUsync.png" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by NUTECH, All
+            rights reserved
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact Us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@nutech.pk.edu"
+                >hello@nutech.pk.edu</a
+              >
+            </p>
+          </address>
+        </div>
+        <!-- NAV 1 -->
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create Account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+        <!-- NAV 2 -->
+        <nav class="nav-col">
+          <p class="footer-heading">University</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About NUSYNC </a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <!-- <li><a class="footer-link" href="#">Cooking partners</a></li> -->
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+        <!-- NAV 3 -->
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#"></a></li>
+            <li><a class="footer-link" href="#">Help Center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!-- </div> -->
+  </body>
+</html>
